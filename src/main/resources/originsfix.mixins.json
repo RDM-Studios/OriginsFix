@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "com.rdm.originsfix.mixins",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"ServerPlayerMixin",
+		"PlayerListMixin"
+	],
+	"client": [
+	],
+	"refmap": "originsfix.refmap.json",
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

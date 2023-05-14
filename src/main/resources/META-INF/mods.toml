@@ -1,0 +1,65 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT"
+#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/"
+
+[[mods]]
+modId="originsfix"
+version="${file.jarVersion}"
+displayName="Origins Fix (Forge)"
+#displayURL="https://change.me.to.your.mods.homepage.example.invalid/"
+logoFile="originsfix_logo.png"
+credits="RDM Studios"
+authors="RDM Studios"
+description='''A small addon mod that slightly tweaks behaviour in the Origins mod and Vanilla Minecraft!'''
+
+# Base
+[[dependencies.originsfix]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.originsfix]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
+
+# Extras
+[[dependencies.originsfix]]
+    modId="origins"
+    mandatory=false
+    versionRange="[1.4.1.4,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.originsfix]]
+    modId="lifesteal"
+    mandatory=false
+    versionRange="[3.2.1,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.originsfix]]
+    modId="caelus"
+    mandatory=false
+    versionRange="[1.18.1-3.0.0.2,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.originsfix]]
+    modId="configured"
+    mandatory=false
+    versionRange="[2.0.1,]"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.originsfix]]
+    modId="catalogue"
+    mandatory=false
+    versionRange="[1.6.2,]"
+    ordering="NONE"
+    side="CLIENT"
