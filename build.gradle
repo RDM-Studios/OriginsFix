@@ -109,12 +109,11 @@ dependencies {
     minecraft("net.minecraftforge:forge:${mc_version}-${forge_version}")
     annotationProcessor("org.spongepowered:mixin:0.8.5:processor")
 
-    // Libraries
+    // Extras
     implementation fg.deobf("curse.maven:origins-forge-474438:${origins_version}")
     implementation fg.deobf("curse.maven:lifesteal-forge-fabric-645185:${lifesteal_version}")
     implementation fg.deobf("curse.maven:caelus-308989:${caelus_version}")
 
-    // Extras
     implementation fg.deobf("curse.maven:configured-457570:${configured_version}")
     implementation fg.deobf("curse.maven:catalogue-459701:${catalogue_version}")
 }
