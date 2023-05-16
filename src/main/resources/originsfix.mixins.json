@@ -3,7 +3,7 @@
 	"package": "com.rdm.originsfix.mixins",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ServerPlayerMixin",
+		"LivingEntityMixin",
 		"PlayerListMixin"
 	],
 	"client": [
